@@ -1,0 +1,52 @@
+@media (min-width:768px) {
+    #banner{
+        height: 800px;
+    }
+}
+
+@media (min-width:992px) {
+    #banner{
+        height: 100vh;
+    }
+    .top-tray{
+        display: flex;
+    }
+    .contenar{
+        padding: 0 10px;
+    }
+    #yes{
+        position: static;
+        background-color: transparent;
+        color: #222;
+        height: auto;
+        flex-direction: row;
+        justify-content: end;
+        align-items: unset;
+    }
+    #hem-menu{
+      display: none;
+    }
+    #close{
+        display: none;
+    }
+    .pr{
+        margin-top: 50px;
+    }
+    .pr h1{
+         font-size: 72px;
+    }
+    #middle{
+        width: 690px;
+    }
+    #middle div{
+        width: 1200px;
+        display: flex;
+    }
+    #middle div span{
+        width: 60%;
+    }
+    #middle div img{
+        width: 30%;
+        margin-left: 120px;
+    }
+}
